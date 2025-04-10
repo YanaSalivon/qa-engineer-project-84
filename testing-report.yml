@@ -1,24 +1,24 @@
 ---
 - summary: |
     Проверка добавления товара в корзину 
-status: pass
+  status: pass  
 
 - summary: |
     Проверка удаления товара из корзины
-status: pass
+  status: pass  
 
 - summary: |
     Проверка смены языка сайта на английский язык
-status: pass
+  status: pass 
 
 - summary: |
     Проверка смены языка сайта на русский язык
-status: pass
+  status: pass 
 
 - summary: |
     Проверка функциональности поиска на сайте по ключевому слову
-status: pass
+  status: pass 
 
 - summary: |
     Проверка функциональности поиска на сайте по диапазону цен
-status: pass
+  status: pass 
