@@ -22,7 +22,7 @@ test-cases:
 
   - summary: |
       Проверка функциональности поиска на сайте по диапазону цен
-    status: pass   
+    status: pass
 
 bugreports:
   - summary: |
