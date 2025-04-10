@@ -4,23 +4,23 @@ test-cases:
     Проверка добавления товара в корзину 
 status: pass
 
-- summary: |
+  - summary: |
     Проверка удаления товара из корзины
 status: pass
 
-- summary: |
+  - summary: |
     Проверка смены языка сайта на английский язык
 status: pass
 
-- summary: |
+  - summary: |
     Проверка смены языка сайта на русский язык
 status: pass
 
-- summary: |
+  - summary: |
     Проверка функциональности поиска на сайте по ключевому слову
 status: pass
 
-- summary: |
+  - summary: |
     Проверка функциональности поиска на сайте по диапазону цен
 status: pass   
 
