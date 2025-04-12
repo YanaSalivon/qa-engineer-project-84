@@ -1,15 +1,53 @@
 ---
 - summary: |
+
+  requirement: |
+
+  prerequisites: |
+
+  test-data: |
+
+  steps:
+  
+  expected-result: |
+  
+
+- summary: |
+
+  requirement: |
+
+  prerequisites: |
+
+  test-data: |
+
+  steps:
+  
+  expected-result: |
+
+
+- summary: |
+
+  requirement: |
+
+  prerequisites: |
+
+  test-data: |
+
+  steps:
+  
+  expected-result: |
+  
+  
+- summary: |
     Проверка добавления товара в корзину
   requirement: |
     Пользователь должен иметь возможность добавить товар в корзину
   prerequisites: |
-    Открыта страница магазина
+    Открыта страница товара https://hexlet-products-store.vercel.app/products/16
   test-data: |
     -
   steps:
-    - Перейти на страницу товара.
-    - Нажать кнопку "В корзину".
+    - На странице товара нажать кнопку "В корзину".
     - Перейти в корзину.
   expected-result: |
     Товар отображается в корзине с корректной информацией о названии, количестве и цене.
@@ -81,7 +119,43 @@
   expected-result: |
     Сайт отображает все товары ценой от 5 до 15 долларов
     
+- summary: |
 
+  requirement: |
+
+  prerequisites: |
+
+  test-data: |
+
+  steps:
+  
+  expected-result: |
+  
+
+- summary: |
+
+  requirement: |
+
+  prerequisites: |
+
+  test-data: |
+
+  steps:
+  
+  expected-result: |
+  
+
+- summary: |
+
+  requirement: |
+
+  prerequisites: |
+
+  test-data: |
+
+  steps:
+  
+  expected-result: |
 
 
 
