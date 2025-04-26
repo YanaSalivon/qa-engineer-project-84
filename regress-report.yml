@@ -29,11 +29,7 @@ test-cases:
   status: pass
 
 - summary: |
-    Проверка смены языка сайта на английский язык
-  status: pass
-  
-- summary: |
-    Проверка смены языка сайта на русский язык
+    Проверка смены языка сайта
   status: pass
   
 - summary: |
