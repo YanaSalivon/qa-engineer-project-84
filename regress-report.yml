@@ -6,7 +6,7 @@ test-cases:
 
 - summary: |
     Проверка отображения сайта в мобильной версии.
-  status: fail
+  status: pass
 
 - summary: |
     Проверка скорости загрузки сайта при качестве связи 3G
@@ -100,7 +100,7 @@ bugreports:
     Google Chrome	Версия 135.0.7049.42 (Официальная сборка), (64 бит)
     ОС Windows 24H2
   steps-to-reproduce: |
-    1. Открыть страницу товара https://hexlet-products-store.vercel.app/products/16
+    1. Открыть страницу товара https://products-store-git-v2bugfixes-hexlet-components.vercel.app/products/16
     2. На странице товара нажать кнопку "В корзину"
     3. Перейти в корзину.
     4. Нажать кнопку "удалить" у товара
@@ -109,3 +109,19 @@ bugreports:
     Корзина остается пустой
   actual-result: |
     Товар вновь появляется в корзине
+
+- summary: |
+    Медленная загрузка сайта при качестве связи 3G
+  environment: |
+    Google Chrome	Версия 135.0.7049.42 (Официальная сборка), (64 бит)
+    ОС Windows 24H2
+  steps-to-reproduce: |
+      1. Открыть страницу магазина https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
+      2. Открыть DevTools
+      3. В Devtools выбираем ограничение качества связи "3G"
+      4. Перезагружаем страницу
+  expected-result: |
+      Страница сайта загрузилась с показателем "finish" за время не более 10 секунд
+  actual-result: |
+      Страница сайта загрузилась с показателем "finish" за время 24,25 секунд
+      Баг изображен на скриншоте 7004.png
