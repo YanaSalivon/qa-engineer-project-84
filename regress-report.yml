@@ -59,8 +59,10 @@ bugreports:
     Google Chrome	Версия 135.0.7049.42 (Официальная сборка), (64 бит)
     ОС Windows 24H2
   steps-to-reproduce: |
+    1. Открыта страница товара https://products-store-git-v2bugfixes-hexlet-components.vercel.app/products/16
+    2. На странице товара нажать кнопку "В корзину/add to cart"
     1. Зайти на страницу личной корзины
-    2. Нажать кнопку "оформить заказ/chechout"
+    2. Нажать кнопку "оформить заказ/checkout"
     3. На появившемся окне нажать "крестик"
   expected-result: |
     Появившееся окно закроется
