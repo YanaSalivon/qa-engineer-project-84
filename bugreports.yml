@@ -98,3 +98,15 @@
       Сайт открывает пользователю страницу со всеми товарами, имеющими хештег "#beauty"
   actual-result: |
       Ничего не происходит, адрес страницы меняется на https://hexlet-products-store.vercel.app/products/1#
+
+- summary: |
+    Сайт не открывается через браузер Yandex
+  environment: |
+      Yandex Browser версия 14.12
+      Windows 11
+  steps-to-reproduce: |
+      - Открыть главную страницу сайта в браузере
+  expected-result: |
+      Сайт открывается и работает корректно
+  actual-result: |
+      Сайт не открывается
