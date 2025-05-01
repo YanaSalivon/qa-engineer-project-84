@@ -115,3 +115,15 @@ bugreports:
   actual-result: |
       Страница сайта загрузилась с показателем "finish" за время 26,89 секунд
       Баг изображен на скриншоте 7004.png
+
+- summary: |
+    Сайт не открывается через браузер Yandex
+  environment: |
+      Yandex Browser версия 14.12
+      Windows 11
+  steps-to-reproduce: |
+      - Открыть главную страницу сайта в браузере
+  expected-result: |
+      Сайт открывается и работает корректно
+  actual-result: |
+      Сайт не открывается
